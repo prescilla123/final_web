@@ -1,0 +1,208 @@
+@import url('https:fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+/* css for admindashboard and userpage */
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+}
+.container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 60px;
+    background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)),url('wp5684538-anime-manga-wallpapers.jpg');
+
+}
+.container .content {
+    text-align: center;
+   
+}
+.container .content h3 {
+    font-size: 30px;
+    color: white;
+}
+.container .content h3 span {
+    background-color: #D7E1EC;
+    color: #fff;
+    border-radius: 5px;
+    padding:0 15px;
+}
+.container .content h1 {
+    font-size: 50px;
+    color: white;
+}
+.container .content h1 span {
+    background-color: crimson;
+}
+.container .content p{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: purple;
+}
+.container .content .btn{
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 20px;
+    background-color: #E5BDF6;
+    color: white;
+    margin: 0 5px;
+    text-transform: capitalize;
+}
+.container .content .btn:hover{
+    background: #D7E1EC;
+}
+/* -end- */
+
+/* css for register_form */
+.form-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 60px;
+    background:#D7E1EC;      
+    /* background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)),url('wp5684538-anime-manga-wallpapers.jpg'); */
+
+    
+}
+.form-container form {
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+    background: #B8C6DB;
+    text-align: center;
+    width: 500px;
+}
+.form-container form h3{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color:#333
+}
+.form-container form input,
+.form-container form select {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 17px;
+    margin: 8px 0;
+    background: #eee;
+    border-radius: 5px;
+}
+.form-container form select option {
+    background: #fff;
+}
+.form-container form .form-btn{
+    background: #E5BDF6;
+    color: purple;
+    text-transform: capitalize;
+    font-size: 20px;
+    cursor: pointer;
+}
+.form-container form .form-btn:hover{
+    background: purple;
+    color: #fff;
+}
+.form-container form p {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #333;
+}
+.form-container form p a {
+    color: purple;
+}
+/* -end- */
+
+/* css for register_form error */
+.form-container form .error-msg{
+    margin: 10px 0;
+    display: block;
+    background: crimson;
+    color:#fff;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+}
+/* css for animelists */
+
+#container {
+    margin: 10px;
+    
+}
+.animetitle {
+    border: 5px solid gray;
+    background-color: #D7E1EC;
+    color: black;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.35);
+}
+.animetitle p {
+    font-size: 1.25rem;
+}
+.btnWtached .btnDelete{
+    float: right;
+}
+#container h1 {
+    color: black;
+    text-align: center;
+    
+}
+body {
+    background-color: #D7E1EC;
+   
+}
+form {
+    background-color: #e5bdf653;
+    width: 40%;
+    margin: auto;
+    margin-top: 100px;
+    padding: 0px;
+
+}
+input{
+    width: 80%;
+    padding: 10px;
+}
+.add:hover{
+background-color:#D7E1EC ;
+}
+ .add{
+    background-color: purple;
+    width:50%;
+    border-radius: 8px;
+
+}
+.item{
+    padding: 0%;
+  float: left;
+}
+
+body {
+    background-image: url("background.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  table, th, tr{
+    border: 3px solid black;
+    background-color: rgba(255, 255, 255, 0.371);
+  }
+
+  td{
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+  }
+  button{
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color:  purple;
+  }
+  button a{
+    color: black;
+  }
+
