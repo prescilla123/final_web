@@ -28,7 +28,7 @@ if(!isset($_SESSION['admin_email'])){
     <div class="content">
         <h3>hi<span>admin</span></h3>
         <h1>welcome<span>  <?php echo $_SESSION['admin_email']?></span></h1>
-        <p><b>This is an admin page</b></p>
+        <p><b>This is an Admin Page</b></p>
         <a href="login_form.php"  class="btn"><b>Login</b></a>
         <a href="register_form.php"  class="btn"><b>Register</b></a>
         <a href="crudadmin.php"  class="btn"><b>View User</b></a>
